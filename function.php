@@ -8,10 +8,10 @@ $output="";
 if(mysqli_num_rows($res)>0){
     $output='<table border="1" width="100" cellspacing="0" cellpadding="10px">
     <tr>
-        <td>name</td>
-        <td>Mobile</td>
-        <td>Email</td>
-        <td>City</td>
+        <th>name</th>
+        <th>Mobile</th>
+        <th>Email</th>
+        <th>City</th>
     </tr>';
     while($row=mysqli_fetch_assoc($res)){
         $output.="
